@@ -1,0 +1,27 @@
+/*
+!pages
+*/
+.preparation,
+.crew{
+@include respond-to(sm-screens) {
+	float: right;
+	width: 58%;
+	}
+@include respond-to(lg-screens) {
+	float: right;
+	width: 48%;
+	}
+}
+
+main svg{
+	@include respond-to(sm-screens) {
+	display: none;
+	}
+}
+  
+.medium{
+	width: 80%;
+	@include respond-to(med-screens) {
+  		width: 70%;
+	}
+}

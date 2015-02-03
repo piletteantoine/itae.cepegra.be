@@ -1,0 +1,108 @@
+.btn{
+  display: inline-block;
+  padding: $fs/1.5;
+  width: 100%;
+  letter-spacing: $fs/6;
+  margin-top: $fs*2;
+  background-color: transparent;
+  margin-bottom: $fs;
+  text-align: center;
+  font-size: $fs/1.2;
+  text-transform: uppercase;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+
+  outline: none;
+  @include respond-to(med-screens){
+    font-size: $fs*1.1;
+    padding: $fs*1;
+  }
+}
+
+.btn_green{
+  color: $fluo_green;
+  border: 2px solid $fluo_green;
+    @include respond-to(med-screens){
+        &:hover{
+        background-color: $fluo_green;
+        color: $grey;
+    }
+    // @include respond-to(lg-screens){
+    // max-width: 70%;
+    // display: block;
+    // margin: $fs*4 auto;
+    // }
+  }
+}
+
+.btn_blue{
+  color: $dark_blue;
+    border: 2px solid $dark_blue;
+  @include respond-to(med-screens){
+      &:hover{
+      background-color: $dark_blue;
+      color: white;
+    }
+  }
+}
+
+
+.toggle-control{
+  width: $fs*1.8;
+  height: $fs*1.8;
+  position: relative;
+  margin: 0 auto;
+  padding: .25em;
+  border-radius: 1em;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.toggle-control.more {
+  transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+  -moz-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  
+}
+
+.toggle-control::before, .toggle-control::after {
+  display: block;
+  position: absolute;
+  content: "";
+  background: $fluo_green;
+  transition: background-color .25s ease-out;
+  -webkit-transition: background-color .25s ease-out;
+  -moz-transition: background-color .25s ease-out;
+  -ms-transition: background-color .25s ease-out;
+}
+
+.toggle-control::before {
+  height: .25em;
+  margin-top: -.125em;
+  top: .85em;
+  width: 1.2em;
+}
+
+.toggle-control::after {
+  height: 1.2em;
+  margin-left: -.125em;
+  left: .85em;
+  width: .25em;
+}
+
+.green, time{
+  color: $fluo_green;
+}
+
+.white{
+  color: white;
+}
+
+

@@ -1,0 +1,334 @@
+/*
+  ITAE Menu
+*/
+nav#menu {
+	position: fixed;
+  background-color: $black;
+  text-align: center;
+	top: 0;
+	left: -$fs*9;
+	bottom: 0;
+	display: block;
+	float: left;
+	width: 100%;
+	max-width: $fs*16;
+	height: 100%;
+  transition: all 300ms;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+	-ms-transition: all 300ms;
+
+  @include respond-to(sm-screens){
+    max-width: $fs*18;
+  }
+
+	> ul {
+		display: block;
+		padding: 0;
+		list-style: none;
+		opacity: 0.5;
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    
+
+		li {
+      @extend %serif;
+      font-size: $fs;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+			padding: $fs 0;
+			cursor: pointer;
+      margin-bottom: $fs; 
+      padding-bottom: $fs*2; 
+      border-bottom: 1px solid lighten($grey, 60%); 
+		}
+    li:last-of-type{
+      border-bottom: 1px solid transparent; 
+    }
+    li a{
+      color:lighten($grey, 60%);
+      text-decoration: none;
+    }
+	}
+}
+
+body.menu-active nav#menu { left: 0px; z-index:1; }
+body.menu-active nav#menu ul { left: 0px; opacity: 1; }
+
+/*
+  Content
+*/
+
+main {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background: #fcfeff;
+	border-radius: 0;
+
+
+	box-sizing: border-box;
+
+	transition: all 300ms;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -ms-transition: all 300ms;
+  div.menu-trigger{
+    position: fixed;
+  }
+  div.menu-trigger:before,
+  div.menu-trigger:after{
+    position: absolute;
+  }
+  div.menu-trigger,
+  div.menu-trigger:before,
+  div.menu-trigger:after {
+    
+    top: $fs;
+    left: $fs/2;
+    width: 24px;
+    height: 5px;
+    background: white;
+    z-index: 9999;
+    transition: background 0.3s, 
+    transform 0.3s, top 0.3s;
+    -webkit-transition: background 0.3s, 
+    -webkit-transform 0.3s, top 0.3s;
+    -moz-transition: background 0.3s, 
+    -moz-transform 0.3s, top 0.3s;
+    -ms-transition: background 0.3s, 
+    -ms-transform 0.3s, top 0.3s;
+    @include respond-to(sm-screens){
+      width: 32px;
+      top: $fs*1.5;
+      left: $fs/1.5;
+      height: 6px;
+    }
+    @include respond-to(lg-screens){
+      width: 37px;
+      top: $fs*1.7;
+      left: $fs/1.7;
+      height: 7px;
+    }
+  }
+
+  div.menu-trigger:before {
+    top: -8px;
+    left: 0;
+    content: "";
+    @include respond-to(sm-screens){
+      top: -10px;
+    }
+    @include respond-to(lg-screens){
+      top: -12px;
+    }
+  }
+
+  div.menu-trigger:after {
+    top: 8px;
+    left: 0;
+    content: "";
+    @include respond-to(sm-screens){
+      top: 10px;
+    }
+    @include respond-to(lg-screens){
+      top: 12px;
+    }
+  }
+  
+  // A NETTOYER!!
+  .open {
+    position: absolute!important;
+    left: $fs!important;
+    background: transparent!important;
+  }
+
+  .open:before {
+    top: 0!important;
+    transform: rotate3d(0, 0, 1, -45deg)!important;
+    -webkit-transform: rotate3d(0, 0, 1, -45deg)!important;
+    -moz-transform: rotate3d(0, 0, 1, -45deg)!important;
+    -ms-transform: rotate3d(0, 0, 1, -45deg)!important;
+  }
+
+  .open:after {
+    top: 0!important;
+    transform: rotate3d(0, 0, 1, 45deg)!important;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg)!important;
+    -moz-transform: rotate3d(0, 0, 1, 45deg)!important;
+    -ms-transform: rotate3d(0, 0, 1, 45deg)!important;
+  }
+}
+
+body.menu-active main { 
+  left: $fs*16;
+  @include respond-to(sm-screens){
+    left: $fs*18;
+  }
+
+}
+body.menu-active main .menu-trigger {
+  left: $fs*17; 
+  @include respond-to(sm-screens){
+    max-width: $fs*19;
+  }
+}
+
+.full_screen{
+  background-color: $light_black;
+  img {
+  // display: none;
+  position: relative;
+  top: 0;
+  left:0;
+  width: 100%;
+  }
+}
+
+.fixed{
+  position: fixed;
+  top: 0;
+}
+
+//Navigation from expedition
+.burgerbutton {
+  width: 30px;
+  height: 30px;
+  color: white;
+  background: $black;
+  padding: 10px;
+  font-size: 30px;
+  letter-spacing:9px;
+  line-height: .8em;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.menu_expedition {
+  list-style: none;
+  background: $black;
+  max-width: 18rem;
+  width:100%;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  margin:0;
+  height:100%;
+  left: -300px;
+  z-index: 5;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+}
+.menu_expedition li {
+  padding: 15px 15px 10px 15px;
+  text-transform: uppercase;
+  font-size: $fs*1;
+  letter-spacing: 3px;
+  margin-bottom: 1rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid white;
+  text-align: center;
+  @extend %serif;
+
+  &:first-of-type{
+    margin-top: $fs*1;
+  }
+}
+.menu_expedition li a{
+  text-decoration: none;
+  color: white;
+  text-align: left;
+}
+
+.sidebar {
+  position: absolute;
+  input[type=checkbox] {
+  visibility: hidden;
+  }
+
+  .burgerlabel {
+    position: fixed;
+    cursor: pointer;
+    &:before,
+    &:after{
+      position: absolute;
+    }
+  }
+
+  .burgerlabel,
+  .burgerlabel:before,
+  .burgerlabel:after{
+    top:0;
+    left:30px;
+    width: 24px;
+    height: 5px;
+    background:white;
+    z-index: 80;
+    -webkit-transition: background 0.3s, 
+    -webkit-transform 0.3s, top 0.3s;
+    @include respond-to(sm-screens){
+      width: 32px;
+      top: $fs*1.5;
+      left: $fs/1.5;
+      height: 6px;
+    }
+    @include respond-to(lg-screens){
+      width: 37px;
+      top: $fs*1.7;
+      left: $fs/1.7;
+      height: 7px;
+    }
+  }
+
+  .burgerlabel:before {
+    top: -8px;
+    left: 0;
+    content: "";
+    @include respond-to(sm-screens){
+      top: -10px;
+    }
+    @include respond-to(lg-screens){
+      top: -12px;
+    }
+  }
+  .burgerlabel:after {
+    top: 8px;
+    left: 0;
+    content: "";
+    @include respond-to(sm-screens){
+      top: 10px;
+    }
+    @include respond-to(lg-screens){
+      top: 12px;
+    }
+  }
+
+
+}
+.burgerlabel:checked {
+  position: absolute!important;
+  left: $fs!important;
+  background: transparent!important;
+}
+
+.burgerlabel:checked:before {
+  top: 0!important;
+  -webkit-transform: rotate3d(0, 0, 1, -45deg)!important;
+}
+
+.burgerlabel:checked:after {
+  top: 0!important;
+  -webkit-transform: rotate3d(0, 0, 1, 45deg)!important;
+}
+.burgercheck:checked ~ .menu_expedition {
+  -webkit-transform: translate(300px, 0);
+  transform: translate(300px, 0);
+}
+.burgercheck:checked ~ .burgerlabel{
+  -webkit-transform: translate(300px, 0);
+  transform: translate(300px, 0);
+}

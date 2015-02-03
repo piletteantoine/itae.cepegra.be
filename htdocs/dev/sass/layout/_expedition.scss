@@ -1,0 +1,198 @@
+/*
+!expedition
+*/
+
+.green{
+    fill: $fluo_green;
+}
+#mapping_container {
+    background: $black;
+    height: 720px;
+    margin-top: -7px;
+    overflow: hidden;
+    position: relative; 
+    // height: 100vh;
+    // overflow: hidden;
+}
+#mapping {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 720px;
+}
+#scroll_container {
+    height: 720px;
+    overflow-y: scroll;
+    position: relative; 
+}
+#scroll {
+    height: 10400px;
+}
+
+//add step & street view
+section{
+    position: relative;
+}
+#place {
+    cursor:url("../images/cursor.png"), crosshair;
+}
+.pointInfo__Container{
+    background: $grey;
+    padding: $fs*1;
+    display:none;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    a{
+        color:white;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
+.streetView,
+.history{
+    letter-spacing: 1px;
+    &:before,
+    &:after{
+        font-size: 1rem;
+        padding: $fs $fs/2 $fs $fs/2;
+    }
+}
+.streetView{
+    margin-left: $fs*2;
+    
+    &:before{
+        content:"<";
+    }
+}
+
+.history{
+    float: right;
+    margin-right: $fs*2;
+    &:after{
+        content:">";
+    }
+}
+
+#streetView,
+#history{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    max-width: 100%;
+    display: none;
+    z-index: 100;
+    h1,h2{
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 45%;
+
+        @include respond-to(lg-screens){
+            background-size: 30%;
+        }
+    }
+    h1{
+        margin-top: $fs*3;
+        font-size: $fs*1.6;
+    }
+    h2{
+        position: relative;
+        font-size: $fs*1.2;
+        padding-bottom: $fs*4;
+    }
+    p{
+        margin-top: $fs*3;
+    }
+}
+.right__side{
+    padding: $fs*1 $fs*3 $fs*1;
+    @include respond-to(med-screens){
+        height: 100vh;
+        float: right;
+        width:50%;
+        padding-left: $fs*2;
+    }
+}
+
+#history{ 
+    h2{
+        background-image: url(../svg/motif_history.svg);
+    }
+    .right__side{
+        background: $grey;
+        padding: 0 $fs*2;
+        @include respond-to(med-screens){
+            padding: 0 $fs*4;
+        }
+    }
+    .left__side{
+        height: 100vh;
+        display: none;
+        margin-top: $fs*2;
+        background-size: 60%!important;
+        @include respond-to(med-screens){
+            display: block;
+        }
+    }
+
+    #mobile__crew{
+        max-width: 100%;
+        @include respond-to(med-screens){
+            display: none;
+        }
+    }
+
+    .close{
+        color:$fluo_green;
+        @include respond-to(sm-screens){
+            color:white;
+        }
+    }
+}
+#streetView{
+    background: white;
+    h1,h2,p{
+        color:$dark_blue;
+    }
+    h2{
+        background-image: url(../svg/motif_view.svg);
+    }
+    .close{
+        color:$dark_blue;
+    }
+}
+
+#history{
+    background: $grey;
+}
+.close{
+    position: absolute;
+    font-size: $fs*2;
+    right: $fs*1;
+    top: $fs*0;
+    cursor:pointer;
+}
+#map-canvas {
+    height: 100%;
+    margin: 0px;
+    padding: 0px
+}
+.left__streetView{
+    height: 350px;
+    padding-top: $fs*2;
+    @include respond-to(med-screens){
+        height: 770px;
+    }
+}
+
+#pano{
+    width:100%;
+    height: 100%;
+    float:left;
+    @include respond-to(med-screens){
+        width: 45%; 
+    }
+}
+

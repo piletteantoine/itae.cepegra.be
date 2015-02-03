@@ -1,0 +1,91 @@
+{
+  "hstry_grytviken":
+{ "id" :
+  "hstry_grytviken",
+  "hstry_location" : "The South Georgia",
+  "hstry_subtitle" : "Grytviken Station",
+  "hstry_text" : "Endurance, without Shackleton (who was detained in England by expedition business), left Plymouth on 8 August 1914, heading first for Buenos Aires. Here Shackleton, who had travelled on a faster ship, rejoined the expedition. Hurley also came on board, and William Bakewell and stowaway Perce Blackborow were added to the crew. Several others left, or were discharged.On 26 October the ship sailed for the South Atlantic, arriving in South Georgia on 5 November. After a month-long halt in the Grytviken whaling station, Endurance departed for the Antarctic on 5 December.",
+  "contemp_subtitle" : "Grytviken Station",
+  "contemp_text" : "Grytviken is the whaling station made famous by Shackleton's reunion with civilization on South Georgia after losing his ship, the Endurance, to Antarctic pack ice in 1915. Toast \"Bring 'em Back Shack\" at his gravesite in a small cemetery overlooking the bay. Although the grave of Ernest Shackleton can be found in the little graveyard here, Grytviken is not the whaling station where he finally found help after his epic journey. This was at the nearby Stromness whaling station.",
+  "k" : "-54.2852453",
+  "b" : "-36.5119457"
+},
+"hstry_packice":
+{
+  "id" : "hstry_packice",
+  "hstry_location" : "Weddell Sea",
+  "hstry_subtitle" : "Pack Ice",
+  "hstry_text" : "Two days later Shackleton was disconcerted to encounter pack ice as far north as 57°26′S, forcing the ship to manoeuvre. During the following days there were more tussles with the pack, which on 14 December was thick enough to halt the ship for 24 hours. Three days later the ship was stopped again. Shackleton commented: \"I had been prepared for evil conditions in the Weddell Sea, but had hoped that the pack would be loose. What we were encountering was fairly dense pack of a very obstinate character\".",
+  "contemp_subtitle" : "Pack Ice",
+  "contemp_text" : "Pack ice, also known as ice pack or pack,  any area of sea ice (ice formed by freezing of seawater) that is not landfast; it is mobile by virtue of not being attached to the shoreline or something else. Pack ice expands in the winter and retreats in the summer in both hemispheres to cover about 5 percent of the northern oceans and 8 percent of the southern oceans. See also sea ice.",
+  "k" : "-65.2489187",
+  "b" : "-64.2194295"
+},
+"hstry_trap":
+{
+  "id" : "hstry_trap",
+  "hstry_location" : "Coats Land",
+  "hstry_subtitle" : "Endurance Trapped",
+  "hstry_text" : "On 21 February 1915 Endurance, still held fast, drifted to her most southerly latitude, 76°58′S. Thereafter she began moving with the pack in a northerly direction.On 24 February Shackleton realised that they would be held in the ice throughout the winter, and ordered ship’s routine abandoned. The dogs were taken off board and housed in ice-kennels or \"dogloos\", and the ship’s interior was converted to suitable winter quarters for the various groups of men—officers, scientists, engineers, and seamen. A wireless apparatus was rigged, but their location was too remote to receive or transmit signals.",
+  "contemp_subtitle" : "Bekner",
+  "contemp_text" : "Berkner Island or Berkner Ice Rise or Hubley Island is an ice rise, where bedrock below sea level makes the ice dome upward. If the ice cap melted, it would be under water.Berkner \"Island\" is high and completely ice-covered and about 320 kilometres (200 mi) long and 150 kilometres (93 mi) wide, with an area of 44,000 km2 (17,000 sq mi). Berkner is surrounded by the Filchner-Ronne Ice Shelf. The northernmost point of the Berkner is about 20 kilometres (12 mi) from the open sea. It lies in the overlapping portion of the Argentine and the British claims.",
+  "k" : "-64.860535",
+  "b" : "-62.5029373"
+},
+"hstry_sank":
+{
+  "id" : "hstry_sank",
+  "hstry_location" : "Larsen Ice Shelf",
+  "hstry_subtitle" : "Endurance Sunk",
+  "hstry_text" : "On 30 September the ship sustained what Shackleton described as \"the worst squeeze we had experienced\". Worsley described the pressure as being \"thrown to and fro like a shuttlecock a dozen times\".On 24 October, the starboard side was forced against a large floe, increasing the pressure until the hull began to bend and splinter, so that water from below the ice began to pour into the ship. When the timbers broke they made noises which sailors later described as being similar to the sound of \"heavy fireworks and the blasting of guns\". The supplies and three lifeboats were transferred to the ice, while the crew attempted to shore up the boat's hull and pump out the incoming sea, but after a few days, on 27 October 1915, and in freezing temperatures below −15 °F (−25 °C), Shackleton was forced to give the order to abandon ship. The position at abandonment was recorded as 69°05′S, 51°30′W. The wreckage remained afloat, and over the following weeks the crew salvaged further supplies and materials, including Hurley's photographs and cameras that had initially been left behind. From around 550 plates Hurley chose the best 150, the maximum that could be carried, and smashed the rest.",
+  "contemp_subtitle" : "Dolleman Cabin",
+  "contemp_text" : "Dolleman Island is a rounded, ice-covered island. It was discovered in 1940 by members of East Base of the US Antarctic Service.The island was named in honor of S-Sgt. Hendrik (Henry) Dolleman (1905-1990) of Manchester, New Hampshire, and born in Deventer in the Netherlands. He was a retired career serviceman in the United States Air Force who served with Admiral Richard E. Byrd in Antarctica on the 1939 and 1955 Deep Freeze expeditions. Mr. Dolleman was also a sled dog trainer. In 1942, when Dolleman was stationed at Westover Field, Massachusetts, he won the Soldier's Medal with an oak leaf cluster for his participation in two polar rescue missions.",
+  "k" : "-77.6360844",
+  "b" : "166.4177453"
+},
+"hstry_camp":
+{
+  "id" : "hstry_camp",
+  "hstry_location" : "Larsen Ice Shelf",
+  "hstry_subtitle" : "Camping on the ice",
+  "hstry_text" : "With the loss of the ship the transcontinental plans were abandoned, and the focus shifted to that of shoes. The men were running low on shoes and they had to make new shoes out of wood from the scavenged pieces of the ship.Shackleton's intention now was to march the crew westward, to one or other of several possible destinations. His first thought was for Paulet Island, where he knew there was a substantial food depot, because he had ordered it 12 years earlier while organising relief for Otto Nordenskiöld’s Swedish expedition in 1902–04. Other possibilities were Snow Hill Island, which had been Nordenskiöld’s winter quarters,or Robertson Island.Shackleton believed that from one of these islands they would be able to reach and cross Graham Land, and get to the whaling outposts in Wilhelmina Bay.He calculated that on the day Endurance was abandoned they were 346 miles from Paulet Island.[60] Worsley calculated the distance to Snow Hill Island to be 312 miles (500 km), with a further 120 miles (190 km) to Wilhelmina Bay.He believed the march was too risky; they should wait until the ice carried them to open water, and then escape in the boats. Shackleton overruled him.",
+  "contemp_subtitle" : "Paulet Island",
+  "contemp_text" : "Paulet Island is a circular island about 1.5 km (0.93 mi) in diameter, lying 4.5 km (2.8 mi) south-east of Dundee Island, off the north-eastern end of the Antarctic Peninsula. Because of its large penguin colony, it is a popular destination for sightseeing tours.",
+  "k" : "-77.5053691",
+  "b" : "161.8412465"
+},
+"hstry_elephant":
+{
+  "id" : "hstry_elephant",
+  "hstry_location" : "South Shetland Island",
+  "hstry_subtitle" : "Elephant Island",
+  "hstry_text" : "The end of Patience Camp was signalled on the evening of 8 April, when the floe suddenly split. The camp now found itself on a small triangular raft of ice; a break-up of this would mean disaster, so Shackleton readied the lifeboats for the party’s enforced departure.He had now decided they would try, if possible, to reach the distant Deception Island because a small wooden church had been reportedly erected for the benefit of whalers. This could provide a source of timber that might enable them to construct a seaworthy boat. At 1 pm on 9 April the Dudley Docker was launched, and an hour later all three boats were away. Shackleton himself commanded the James Caird, Worsley the Dudley Docker, and navigating officer Hubert Hudson was nominally in charge of the Stancomb Wills, though because of his precarious mental state the effective commander was Tom Crean.",
+  "contemp_subtitle" : "Elephant Island",
+  "contemp_text" : "Elephant Island is an ice-covered mountainous island off the coast of Antarctica in the outer reaches of the South Shetland Islands, in the Southern Ocean. Its name was given by early explorers sighting elephant seals on its shores. The island is situated 245 kilometres (152 mi) north-northeast of the tip of the Antarctic Peninsula, 1,253 kilometres (779 mi) westsouthwest of South Georgia, 935 kilometres (581 mi) south of the Falkland Islands, and 885 kilometres (550 mi) southeast of Cape Horn. It is within the Antarctic claims of Argentina, Chile and the UK. Brazil has two refuges on the island, Goeldi and Wiltgen, supporting the work of up to six researchers each during the summer.",
+  "k" : "-62.9284845",
+  "b" : "-60.6815386"
+},
+"hstry_lifeboat":
+{
+  "id" : "hstry_lifeboat",
+  "hstry_location" : "Weddell Sea",
+  "hstry_subtitle" : "Lifebot Launched",
+  "hstry_text" : "Elephant Island was remote, uninhabited, and rarely visited by whalers or any other ships. If the party was to return to civilization it would be necessary to summon help. The only realistic way this could be done was to adapt one of the lifeboats for an 800-mile (1,300 km) voyage across the Southern Ocean, to South Georgia. Shackleton had abandoned thoughts of taking the party on the less dangerous journey to Deception Island, because of the poor physical condition of many of his party. Port Stanley in the Falkland Islands was closer than South Georgia, but could not be reached, as this would require sailing against the strong prevailing winds.",
+  "contemp_subtitle" : "King George",
+  "contemp_text" : "King George Island (Argentina: Isla 25 de Mayo, Chile: Isla Rey Jorge, Russian: Ватерло́о Vaterloo (Waterloo)) is the largest of the South Shetland Islands, lying 120 kilometres (75 mi) off the coast of Antarctica in the Southern Ocean. The island was named after King George III.",
+  "k" : "-62.1562275",
+  "b" : "-58.4796566"
+},
+"hstry_stromness":
+{
+  "id" : "hstry_stromness",
+  "hstry_location" : "The South Georgia",
+  "hstry_subtitle" : "Rescue",
+  "hstry_text" : "Shackleton's first task, on arriving at the Stromness station, was to arrange for his three companions at Peggoty Camp to be picked up. A whaler was sent round the coast, with Worsley aboard to show the way, and by the evening of 21 May all six of the James Caird party were safe. It took four attempts before Shackleton was able to return to Elephant Island to rescue the party stranded there. He first left South Georgia a mere three days after he had arrived in Stromness, after securing the use of a large whaler, The Southern Sky, which was laid up in Husvik Harbour. Shackleton assembled a volunteer crew, which had it ready to sail by the morning of 22 May. As the vessel approached Elephant Island they saw that an impenetrable barrier of pack ice had formed, some 70 miles (110 km) from the island. The Southern Sky was not built for ice breaking, and retreated to Port Stanley in the Falkland Islands.",
+  "contemp_subtitle" : "Stromness",
+  "contemp_text" : "Stromness is a former whaling station on the northern coast of South Georgia Island in the South Atlantic. It was the destination of Ernest Shackleton's rescue journey in 1916.It is the central of three harbours in the west side of Stromness Bay, South Georgia. The name \"Fridtjof Nansen\" or Nansen appeared for this harbour on some early charts, but since about 1920 the name Stromness has been consistently used. The name Stromness comes from the town of that name in Orkney, UK.",
+  "k" : "-54.1542356",
+  "b" : "-36.7670024"
+}
+}
+

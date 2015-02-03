@@ -1,0 +1,29 @@
+.animation{
+
+	img{
+		max-width: 170px;
+		position: absolute;
+		top: $fs*3;
+		left: $fs*8;
+	@include respond-to(sm-screens){
+		position: fixed;
+		max-width: 240px;
+		top: $fs*6;
+		left: $fs*2;
+
+	  }
+	@include respond-to(med-screens){
+		max-width: 280px;
+		top: $fs*12;
+		left: $fs*7;
+
+	  }
+	@include respond-to(lg-screens){
+		max-width: 340px;
+		top: $fs*20;
+		left: $fs*14;
+
+	  }
+	}
+}
+

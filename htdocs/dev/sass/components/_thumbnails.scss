@@ -1,0 +1,54 @@
+.the_crew{
+  figure{
+    img{
+      margin: 0 auto;
+    }
+    @include respond-to(sm-screens) {
+      width: 50%;
+      display: inline-block;
+      float: left;
+    }
+  h3{
+    @include respond-to(sm-screens) {
+      font-size: $fs/1.4;
+    }
+    @include respond-to(med-screens) {
+      font-size: $fs;
+    }
+  }
+}
+
+.thumbnail{
+  margin: 0 auto;
+  text-align: center;
+  a{
+    background-color: transparent;
+  }
+  figure{
+     @include respond-to(lg-screens){
+      margin-bottom: $fs*2;
+     }
+     img{
+      opacity: .8;
+       @include respond-to(sm-screens){
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+  .function{
+    text-transform: uppercase;
+    font-size: $fs/1.2;
+    margin-bottom: $fs*2;
+    letter-spacing: 1px;
+  }
+
+  #show, #hidden:target {
+     display: none;
+
+  }
+  #show:target {
+    display: block;
+  }
+}

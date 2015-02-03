@@ -1,0 +1,42 @@
+/*
+* !fonts
+*/
+// $font_sans:'Helvetica', arial, sans-serif;
+$sans: 'lebiotLight';
+// $font_serif: times, serif;
+$serif: 'tautz';
+
+%sans-serif {
+  font-family: $sans, helvetica, arial, sans-serif;
+}
+
+%serif {
+	font-family: $serif, times, serif;
+}
+
+
+@mixin fontFaceGenerator ($name,$filename,$weight:normal,$style:normal) {
+
+	@font-face {
+		font-family: $name;
+	    src: url('../fonts/#{$filename}.eot');
+	    src: url('../fonts/#{$filename}.eot?#iefix') format('embedded-opentype'),
+			 // url('../fonts/#{$filename}.woff') format('woff'),
+			 url('../fonts/#{$filename}.ttf') format('truetype'),
+	         // url('../fonts/#{$filename}.woff') format('woff'),
+	         url('../fonts/#{$filename}.ttf') format('truetype'),
+	         url('../fonts/#{$filename}.svg##{$filename}') format('svg');
+		font-weight: $weight;
+	    font-style: $style;
+	}
+
+	%#{$name}-#{$weight}-#{$style} {
+	    font-family: $name;
+	    font-weight: $weight;
+	    font-style: $style;
+	}
+}
+
+@include fontFaceGenerator($sans, $sans,$weight: normal, $style: normal);
+@include fontFaceGenerator($serif, $serif,$weight: normal, $style: normal);
+

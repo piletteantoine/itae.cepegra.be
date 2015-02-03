@@ -1,0 +1,38 @@
+/*
+* !queries
+*
+*  definit les points de ruptures.
+*/
+$xs-screen: 30rem;
+$s-screen: 38rem;
+$ms-screen: 45rem;
+$m-screen: 62rem;
+$mlg-screen:75rem;
+$l-screen:82rem;
+$ipad-screen: 1024px;
+
+@mixin respond-to($media) {
+  @if $media == phone {
+    @media only screen and (max-width:$xs-screen) { @content; }
+  }
+  
+  @else if $media == inter-screens {
+    @media only screen and (min-width: $xs-screen) and (max-width: $s-screen){ @content;}
+  }
+
+  @else if $media == sm-screens {
+    @media only screen and (min-width: $s-screen) { @content; }
+  }
+
+  @else if $media == med-screens {
+    @media only screen and (min-width: $m-screen) { @content; }
+  }
+
+  @else if $media == lg-screens {
+    @media only screen and (min-width: $l-screen) { @content; }
+  }
+}
+
+@include respond-to(med-screens){
+          width:80%;
+      }

@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule htdocs/$ /index.php [L]
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+</IfModule>
+

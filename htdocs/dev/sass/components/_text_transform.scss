@@ -1,0 +1,44 @@
+// .underline_green{
+//   color: $fluo_green;
+//   text-decoration: underline;
+// }
+
+.underline{
+  text-decoration: underline;
+}
+
+blockquote{
+  margin: 0 0 $fs 0;
+  font-family: $serif;
+  text-transform: uppercase;
+  color: $fluo_green;
+  @include respond-to(med-screens){
+    font-size: $fs*1.2;
+  }
+  @include respond-to(lg-screens){
+    font-size: $fs*1.3;
+  }
+}
+
+blockquote::before,
+blockquote::after{
+  content: '"';
+  font-size: $fs*3;
+  position: absolute;
+  margin-top: -.5em;
+  @include respond-to(med-screens){
+    font-size: $fs*3;
+  }
+  @include respond-to(lg-screens){
+    font-size: $fs*4;
+  }
+}
+
+blockquote::after{
+  margin-top: -.5em;
+  -ms-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg); 
+  transform: rotate(180deg);
+
+}

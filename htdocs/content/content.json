@@ -1,0 +1,262 @@
+[
+{
+	"name":"Sir Henry Ernest Shackleton",
+	"born" :"1874",
+	"dead" :"1922",
+	"id" : "1",
+	"function" :"Commander",
+	"comment" : "An Irish-born polar expedition veteran, Shackleton approached to within
+				745 miles of the South Pole with Robert Scott on the 1901 Discovery
+				expedition, then pressed to within 97 miles on his own Nimrod expedition
+				 of 1908. Imperious, single-minded, ferociously loyal to his men, he 
+				 once said \"Optimism is true moral courage,\" a tenet he lived by 
+				 until his death on South Georgia Island in 1922.",
+	"anecdote": "men wanted: for hazardous journey. small wages, bitter cold, long months of complete darkness, constant danger, 
+				safe return doubtful. honour and recognition in case of success. sir 
+				ernest shackleton"
+},
+{
+	"name":"Frank Wild",
+	"born" :"1873",
+	"dead" :"1939",
+	"id" : "2",
+	"function" :"Second",
+	"comment" : "A veteran of Scott's Discovery, Douglas Mawson's Australasian Antarctic, 
+				and Shackleton's Nimrod expeditions and utterly loyal to Shackleton, Wild had \"a rare tact,\" wrote Orde-Lees, 
+				\"and the happy knack of saying nothing and yet getting people to do 
+				things just as he requires them...\""
+},
+{
+	"name":"Frank Worsley",
+	"born" :"1872",
+	"dead" :"1943",
+	"id" : "3",
+	"function" :"Captain of the ship",
+	"comment" : ""
+},
+{
+	"name":"Frank Hurley",
+	"born" :"1885",
+	"dead" :"1962",
+	"id" : "4",
+	"function" :"Photographer",
+	"comment" : "An independent-minded Australian, Hurley ran away from home at age 13,
+				working in an ironworks and the Sydney dockyards before becoming a photographer. ",
+	"anecdote" : "Nicknamed \"the Prince\" on the expedition for his susceptibility to flattery, 
+				he quickly gained a reputation for stopping at nothing to secure a 
+				memorable photograph."
+},
+{
+	"name":"Hubert Hudson",
+	"born" :"1886",
+	"dead" :"1942",
+	"id" : "5",
+	"function" :"Navigator Officer",
+	"anecdote" : "\"One never quite knows whether he is on the brink of a mental breakdown
+				 or bubbling over with suppressed intellectuality,\" wrote Orde-Lees of this son of a London minister"
+},
+{
+	"name":"Lionel Greenstreet",
+	"born" :"1889",
+	"dead" :"1979",
+	"id" : "6",
+	"function" :"1er Officier",
+	"comment" : "Drawn from the merchant service, Greenstreet had joined Shackleton's expedition just 24 hours before it left Plymouth, England, when the original first officer quit to lend his services to the war effort. 
+				On the expedition, he ended up befriending two quite different fish:
+				 the proud Hurley and the reserved Clark. "
+},
+{
+	"name":"Thomas Crean",
+	"born" :"1877",
+	"dead" :"1938",
+	"id" : "7",
+	"function" :"2e Officier",
+	"comment" : "Born one of ten children in County Kerry, Ireland, Crean was tall and tough as 
+				an oak. At 16, he joined the Royal Navy and eventually joined Robert Scott on both the Discovery and 
+				Terra Nova expeditions, receiving the Albert Medal for saving two companions during 
+				the latter journey"
+},
+{
+	"name":"Alfred Cheetham",
+	"born" :"1867",
+	"dead" :"1918",
+	"id" : "8",
+	"function" :"3e Officier",
+	"comment" : "An old Antarctic hand with three trips into the Deep South under his belt, including a stint as third officer 
+				on Shackleton's Nimrod expedition, Cheetham was a small man with a gung-ho attitude."
+},
+{
+	"name":"Louis Rickinson",
+	"born" :"1883",
+	"dead" :"1945",
+	"id" : "9",
+	"function" :"Chief Engineer",
+	"anecdote" : "Why someone with a particular aversion to cold would join an expedition to the Antarctic is a mystery, but Louis Rickinson did.",
+	"comment" : "Rickinson was deemed a solid engineer who had a knack with internal combustion engines."
+},
+{
+	"name":"Alexander Kerr",
+	"born" :"1892",
+	"dead" :"1964",
+	"id" : "10",
+	"function" :"Engineer",
+	"comment" : "A reticent man in his early 20s, Kerr had some experience working on oil tank steamers before joining the Endurance. Like his mate Rickinson, he kept largely to himself and did his job well."
+},
+{
+	"name":"Dr James Mcllroy",
+	"born" :"1879",
+	"dead" :"1968",
+	"id" : "11",
+	"function" :"Surgeon"
+},
+{
+	"name":"Dr Alexander Macklin",
+	"born" :"1889",
+	"dead" :"1967",
+	"id" : "12",
+	"function" :"Surgeon",
+	"comment" : "As with McIlroy, Shackleton assigned Macklin a team of sledge dogs to drive, and also the duty of caring for the ship's canines. Son of a doctor from Scotland's Scilly Isles, Macklin, according to his son Sandy Macklin, had intended to remove his glasses for his initial interview with Shackleton, for fear the great man would not hire him as surgeon, but he forgot. When Shackleton asked him if he required glasses, Macklin replied with the first thought that came to his mind: 
+				\"Many a wise face would look foolish without glasses.\" Shackleton hired him on the spot."
+},
+{
+	"name":"Robert Clark",
+	"born" :"1882",
+	"dead" :"1950",
+	"id" : "13",
+	"function" :"Biologist",
+	"comment" : "A taciturn man, Clark engendered respect from the crew. He could usually be found out for a bit of exercise on his skis, skinning penguins for scientific study, or using his dredging nets to bring up biological specimens from the deep Antarctic seas.	"
+},
+{
+	"name":"Leonard Hussey",
+	"born" :"1891",
+	"dead" :"1964",
+	"id" : "14",
+	"function" :"Meteorologist",
+	"comment" : "Odd as it may seem, Hussey worked as an archeologist in the Sudan before joining the Endurance. Perhaps that's one reason why his meteorological skills came up a tad short in the Antarctic. As Orde-Lees observed, \"The vagaries of the climate quite bewilder Hussey. 
+				For just when he thinks it is going to do one thing the precise opposite happens.\""
+},
+{
+	"name":"James Wordie",
+	"born" :"1889",
+	"dead" :"1962",
+	"id" : "15",
+	"function" :"Géologist",
+	"comment" : "A bearded, bespectacled Scot from Glasgow, jocular \"Jock\" Wordie was one of the most popular members of the expedition. Before the journey, he advanced Shackleton some of his own funds to help buy fuel for the ship. "
+},
+{
+	"name":"Reginal James",
+	"born" :"1891",
+	"dead" :"1964",
+	"id" : "16",
+	"function" :"Physicist",
+	"comment" : "The expedition's magnetician and physicist, the studious academic \"Gentle Jimmy\" owned \"some wonderful electrical machines which none of us understood,\" wrote Macklin,\"and a joke of ours that annoyed him very much was that he did not either.\""
+},
+{
+	"name":"George Martson",
+	"born" :"1882",
+	"dead" :"1940",
+	"id" : "17",
+	"function" :"Artist"
+},
+{
+	"name":"Thomas Orde-Lees",
+	"born" :"1877",
+	"dead" :"1958",
+	"id" : "18",
+	"function" :"Storekeeper and sky expert",
+	"comment" : "A captain in the Royal Marines, Orde-Lees was in charge of the motor-sledges that would have helped carry Shackleton's team across the continent. A graduate of the English public-school system, he was a bit of a prima donna and generally disliked, though his diary is one of the more perceptive kept by Shackleton's crew."
+},
+{
+	"name":"Henry 'Chippy' McNish",
+	"born" :"1874",
+	"dead" :"1930",
+	"id" : "19",
+	"function" :"Carpenter naval"
+},
+{
+	"name":"Charles Green",
+	"born" :"1888",
+	"dead" :"1974",
+	"id" : "20",
+	"function" :"Cook",
+	"comment" : "The son of a master baker, Green went to sea at the age of 21, becoming a cook in the Merchant Navy. With Blackborow's help, he worked in the galley - both aboard ship and on the ice—from early morning till evening, preparing meals for 28 mouths."
+},
+{
+	"name":"Charles Green",
+	"born" :"1888",
+	"dead" :"1974",
+	"id" : "21",
+	"function" :"Cook",
+	"comment" : "The son of a master baker, Green went to sea at the age of 21, becoming a cook in the Merchant Navy. With Blackborow's help, he worked in the galley - both aboard ship and on the ice—from early morning till evening, preparing meals for 28 mouths."
+},
+{
+	"name":"William Stephenson",
+	"born" :"1889",
+	"dead" :"1953",
+	"id" : "22",
+	"function" :"Stoker",
+	"comment" : "The senior stoker, Stephenson was a former officer's servant and Royal Marine. When the ice crushed the Endurance, his job as tender of the marine steam boiler came to an abrupt end, as did that of his mate Holness. For some reason, he and Holness were two of only four people (the other two were Vincent and McNeish), whom Shackleton did not recommend for Polar Medal after the crew's return to England."
+},
+{
+	"name":"Albert Holness",
+	"born" :"1892",
+	"dead" :"1924",
+	"id" : "23",
+	"function" :"Stoker",
+	"comment" : "Orde-Lees considered Holness, who hailed from Yorkshire, \"the most loyal to the expedition.\" Holness was so desperate to smoke during the long wait on Elephant Island that, according to Orde-Lees, he \"sits up in the cold every night after everyone else has turned in, gazing intently at Wild & McIlroy in the hopes that one of them will give him the unsmokeable part of a toilet-paper cigarette.\""
+},
+{
+	"name":"John Vincent",
+	"born" :"1879",
+	"dead" :"1941",
+	"id" : "24",
+	"function" :"Able Seaman",
+	"comment" : "A former navy sailor and trawlerhand, Vincent was the strongest man aboard, and he used his brawniness at times in a bullying way—until Shackleton put him in his place. Shackleton chose him for the journey to South Georgia, very likely both for his strength and to keep an eye on him. Note: No photo is available of Vincent. "
+},
+{
+	"name":"Timothy McCarthy",
+	"born" :"1888",
+	"dead" :"1917",
+	"id" : "25",
+	"function" :"Able Seaman",
+	"comment" : "Ireland"
+},
+{
+	"name":"Walter How",
+	"born" :"1885",
+	"dead" :"1972",
+	"id" : "26",
+	"function" :"Able Seaman",
+	"comment" : "Though Marston was the expedition's official artist, one reason the publicity-minded Shackleton may have chosen How was for his capabilities as an amateur artist. How also had experience in cold climates, having worked in the sub-Arctic with the Canadian Auxiliary Survey Ship."
+},
+{
+	"name":"William Bakewell",
+	"born" :"1888",
+	"dead" :"1969",
+	"id" : "27",
+	"function" :"Able Seaman",
+	"comment" : "The only American on the expedition, Bakewell posed as a Canadian when applying for a position aboard the Endurance. He had quite the roamer's resume, having been a farm worker, logger, railwayman, and ranch hand before going to sea. He helped his pal Blackborow stow away on the ship at Buenos Aires."
+},
+{
+	"name":"Thomas McLeod",
+	"born" :"1869",
+	"dead" :"1960",
+	"id" : "28",
+	"function" :"Able Seaman",
+	"comment" : "When he joined the crew of the Endurance, McLeod had a full 27 years of experience as a sailor, having adopted a life at sea at the tender age of 14. He had been to the Antarctic twice, once with Scott on Terra Nova and again with Shackleton aboard Nimrod."
+},
+{
+	"name":"Sir Daniel Gooch",
+	"born" :"1869",
+	"dead" :"1926",
+	"id" : "29",
+	"function" :"Musher",
+	"comment" : "Gooch, who helped tend to the sledge dogs, traveled only as far as South Georgia."
+},
+{
+	"name":"Mrs Chippy",
+	"animal" : "chat",
+	"id" : "30",
+	"function" :"Leader on the ship"
+},
+]

@@ -1,0 +1,29 @@
+/*
+	!home
+*/
+
+@include respond-to(med-screens) {
+	.left__about,
+	.right__about{
+		width:45%;
+	}
+	.left__about{
+		float: left;
+	}
+
+	.right__about{
+		float: right;
+		img{
+		@include respond-to(med-screens){
+      		width:80%;
+    	}
+	}
+	}
+}
+
+.med-screen{
+	display: none;
+	@include respond-to(med-screens){
+  		display: block;
+	}
+}
